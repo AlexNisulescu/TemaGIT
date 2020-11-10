@@ -34,5 +34,4 @@ public class produse {
     public void setPret(int pret) {
         Pret = pret;
     }
-
 }
