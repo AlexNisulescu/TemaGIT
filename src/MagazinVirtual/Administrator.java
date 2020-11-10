@@ -20,7 +20,7 @@ public class Administrator {
     }
 
     public void addMagazin(Magazin M){
-        this.magazine.add(M);
+        this.magazine.add(M); 
     }
 
     public Magazin getMagazin(int x){
