@@ -11,11 +11,13 @@ public class utilizator {
     private String NumeUtilizator;
     private int anNastere;
     private ArrayList<produse> produse;
+    int bani;
 
     public utilizator(String nume, int an){
 
-        NumeUtilizator=nume;
-        anNastere=an;
+        this.NumeUtilizator=nume;
+        this.anNastere=an;
+        this.bani=0;
     }
 
     /**
@@ -40,5 +42,9 @@ public class utilizator {
 
     public addProdus(produse p){
         this.produse.add(p);
+    }
+
+    public void AdaugareBani(int bani) {
+        this.bani += bani;
     }
 }
