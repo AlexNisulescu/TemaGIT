@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Administrator {
 
-    private ArrayList <Magazin> Magazine;
+    private ArrayList <Magazin> magazine;
     private String NumeAdmin;
 
     public Administrator(String nume){
@@ -20,16 +20,16 @@ public class Administrator {
     }
 
     public void addMagazin(Magazin M){
-        this.Magazine.add(M);
+        this.magazine.add(M);
     }
 
     public Magazin getMagazin(int x){
-        return this.Magazine.get(x);
+        return this.magazine.get(x);
     }
 
     public int getData(int x)
     {
-        return Magazine.get(x).getSold();
+        return magazine.get(x).getSold();
     }
 
 }
